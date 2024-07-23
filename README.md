@@ -32,7 +32,7 @@
 
 # Dataset
 
-The dataset used in this project, titled "USD-to-NGN-Exchange-Rate-Volatility-and-Anomalies," is a comprehensive collection of historical exchange rate data for the US Dollar (USD) to the Nigerian Naira (NGN) over the period from 2000 to 2024. The dataset includes various attributes that capture the exchange rates and related metrics over this extensive period. Below is a detailed description of the dataset components:
+The [dataset](https://www.cbn.gov.ng/Functions/export.asp?tablename=exchange) used in this project, titled "USD-to-NGN-Exchange-Rate-Volatility-and-Anomalies," is a comprehensive collection of historical exchange rate data for the US Dollar (USD) to the Nigerian Naira (NGN) over the period from 2000 to 2024. The dataset includes various attributes that capture the exchange rates and related metrics over this extensive period. Below is a detailed description of the dataset components:
 
 - **Currency** :The currency pair involved in the exchange rate
 - **Rate Year** : The year in which the exchange rate was recorded.
