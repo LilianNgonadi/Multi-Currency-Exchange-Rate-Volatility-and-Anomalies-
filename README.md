@@ -15,6 +15,9 @@
       <li><a href="#granger-causality-tests">Granger causality tests</a></li>
       <li><a href="#plotting-rate">Plotting Rate</a></li>
       <li><a href="#plotting-anomalies">Plotting Anomalies</a></li>
+  <li><a href="#implications">Implications</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+  
   </li>
   </li>
 </ol>
@@ -78,13 +81,23 @@ Even if currencies are correlated, it doesn't mean one can predict the other, wh
 
 - Central Rate Trend:
   From around 2000 to 2015, the central rate remained relatively stable with minor fluctuations.
-  Starting from around 2016, there is a noticeable increase in the central rate, which accelerates sharply after 2020.
-- Anomalies (Red Dots):
-  Significant anomalies are highlighted in 2004, 2012, and from 2020 onwards.
-  The anomalies in 2004 and 2012 stand out as isolated spikes, indicating sudden and brief deviations from the general trend during those years.
-  From 2020 onwards, there is a cluster of anomalies, suggesting persistent and frequent deviations from the expected central rate.
+  Starting from around 2014, there is a noticeable increase in the central rate, which accelerates sharply after 2022.
+- Anomalies:
+  Significant anomalies are highlighted in 2004, 2014, and from 2022 onwards.
+  The anomalies in 2004 and 2014 stand out as isolated spikes, indicating sudden and brief deviations from the general trend during those years.
+  From 2022 onwards, there is a cluster of anomalies, suggesting persistent and frequent deviations from the expected central rate.
 
   ![ Anomaly](anomaly.png "Anomaly")
+
+# Implications
+- Economic Analysis: The sharp rise in the central rate and the increase in anomalies from 2020 onwards might reflect underlying economic turbulence. Anomalies could be due to specific events like economic crises, changes in trade policies, geopolitical events, or market speculation.
+- Risk Management: For investors and businesses, the increase in anomalies signifies higher risk. Strategies to hedge against exchange rate volatility would be crucial during this period.
+- Policy Making: Policymakers might need to investigate the causes of these anomalies and sharp increases in the exchange rate to implement measures that stabilize the economy and currency.
+
+# Conclusion
+The chart highlights a significant shift in the USD central exchange rate trend starting from around 2022, with a notable increase in volatility and anomalies. This suggests a period of economic uncertainty and potential instability, requiring careful analysis and strategic planning for those affected by these exchange rate fluctuations.
+
+
 
 
 
