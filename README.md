@@ -13,6 +13,8 @@
      <li><a href="#volatility-analysis">Volatility Analysis</a></li>
       <li><a href="#correlation-matrix">Correlation Matrix</a></li>
       <li><a href="#granger-causality-tests">Granger causality tests</a></li>
+      <li><a href="#plotting-rate">Plotting Rate</a></li>
+      <li><a href="#plotting-anomalies">Plotting Anomalies</a></li>
   </li>
   </li>
 </ol>
@@ -64,6 +66,26 @@ From the provided correlation matrix:
 Even if currencies are correlated, it doesn't mean one can predict the other, which aligns with your Granger causality test results.
 
 ![ Granger](granger.png "Granger")
+
+# Plotting Rate
+
+- Rising Means: All three rates (buying, central, and selling) show a consistent upward trend in their means, particularly after 2022. This suggests a significant increase in exchange rates across the board.
+- Increasing Volatility: The standard deviations for all three rates remain relatively low and stable until about 2022, after which there is a marked increase. This implies that the exchange rates have become more volatile in the recent years, particularly from 2022 to 2024.
+
+![ Rate](rate.png "Rate")
+
+# Plotting Anomalies
+
+- Central Rate Trend:
+  From around 2000 to 2015, the central rate remained relatively stable with minor fluctuations.
+  Starting from around 2016, there is a noticeable increase in the central rate, which accelerates sharply after 2020.
+- Anomalies (Red Dots):
+  Significant anomalies are highlighted in 2004, 2012, and from 2020 onwards.
+  The anomalies in 2004 and 2012 stand out as isolated spikes, indicating sudden and brief deviations from the general trend during those years.
+  From 2020 onwards, there is a cluster of anomalies, suggesting persistent and frequent deviations from the expected central rate.
+
+  ![ Anomaly](anomaly.png "Anomaly")
+
 
 
 
