@@ -10,12 +10,9 @@
 <ol>
   <li><a href="#description">Description</a></li>
   <li><a href="#dataset">Dataset</a></li>
-     <li><a href="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
-    <ul>
-      <li><a href="#visualize-numerical-feature-distribution">Visualize Numerical Feature Distribution</a></li>
-      <li><a href="#visualize-categorical-feature-distribution">Visualize Categorical Feature Distribution</a></li>
-      <li><a href="map-visualization-of-health-facilities">Map Visualization of Health Facilities</a></li>     
-    </ul>
+     <li><a href="#volatility-analysis">Volatility Analysis</a></li>
+      <li><a href="#correlation-matrix">Correlation Matrix</a></li>
+      <li><a href="#granger-causality-tests">Granger causality tests</a></li>
   </li>
   </li>
 </ol>
@@ -47,5 +44,26 @@ The table  below display the volatility of the US Dollar (USD) to Nigerian Naira
 - High Volatility Years: Years like 2003, 2013, 2020-2024 show very high volatility. Particularly, 2024 exhibits an exceptionally high volatility value of 225.71 suggesting extreme fluctuations in the exchange rate, which is due to economic instability, policy changes and other significant factors impacting the currency market.
 
 ![ Volatility](volatility.png "Volatility")
+
+# Correlation Matrix
+
+From the provided correlation matrix:
+- EURO and US DOLLAR: Correlation of 0.061621 indicates a very weak positive linear relationship.
+- POUNDS STERLING and SWISS FRANC: Correlation of 0.995617 indicates a very strong positive linear relationship.
+- SWISS FRANC and US DOLLAR: Correlation of 0.998351 indicates a very strong positive linear relationship.
+- US DOLLAR and YEN: Correlation of 0.953631 indicates a strong positive linear relationship.
+
+![ Correlation](correlation.png "Correlation")
+
+# Granger causality tests
+## Strong Correlations Without Causality:
+
+- High correlations (e.g., between POUNDS STERLING and SWISS FRANC) indicate that these currencies tend to move together linearly. However, the lack of Granger causality suggests that while they move together, past values of one do not help predict the future values of the other. This could be due to external factors affecting both currencies similarly rather than a direct predictive relationship.
+## Weak Correlations and No Causality:
+- Weak correlations (between EURO and US DOLLAR) and no Granger causality indicate no significant linear relationship or predictive power between these currencies. Their movements are largely independent of each other.
+Even if currencies are correlated, it doesn't mean one can predict the other, which aligns with your Granger causality test results.
+
+![ Granger](granger.png "Granger")
+
 
 
