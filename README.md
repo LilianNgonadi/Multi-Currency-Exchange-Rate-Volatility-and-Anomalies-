@@ -39,3 +39,13 @@ The dataset used in this project, titled "Multi-Currency Exchange Rate Volatilit
 - **Central Rate** :Used as a benchmark or reference rate for the currency pair
 - **Selling Rate** :Represents the amount in NGN received for selling one currency
 
+# Volatility Analysis
+
+The table  below display the volatility of the US Dollar (USD) to Nigerian Naira (NGN) exchange rate from the year 2001 to 2024. The Volatility column measures the standard deviation of the exchange rate for each year, which indicates how much the exchange rate fluctuated during that year.
+
+- Low Volatility Years: Years like 2001, 2002, 2006, 2010, and 2017-2018 showed low volatility, meaning the USD/NGN exchange rate was relatively stable during those years.
+- High Volatility Years: Years like 2003, 2013, 2020-2024 show very high volatility. Particularly, 2024 exhibits an exceptionally high volatility value of 225.71 suggesting extreme fluctuations in the exchange rate, which is due to economic instability, policy changes and other significant factors impacting the currency market.
+
+![ Volatility](volatility.png "Volatility")
+
+
